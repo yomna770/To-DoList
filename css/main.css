@@ -1,0 +1,75 @@
+.todoList {
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.form-control {
+  padding: 5px 0px !important;
+  height: inherit !important;
+}
+.icon {
+  padding: 9px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  color: antiquewhite;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(245, 0, 9, 0.9668242296918768) 100%
+  );
+}
+
+.item-todo {
+  background-color: rgb(230, 224, 224);
+  margin: 10px 0px;
+  height: 35px;
+  padding-left: 10px;
+  color: rgb(41, 33, 33);
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+p {
+  margin: 0;
+}
+.icon2 {
+  margin: 0px 0px 0px 0px;
+  right: -50%;
+  position: absolute;
+  padding: 7px;
+  top: 0px;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.3s;
+}
+.item-todo:hover .icon2 {
+  right: 0px;
+}
+.pGraph {
+  color: rgb(43, 38, 38);
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn:hover {
+  color: azure;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  transition: 0.1s all;
+  -webkit-transition: 0.1s all;
+  -moz-transition: 0.1s all;
+  -ms-transition: 0.1s all;
+  -o-transition: 0.1s all;
+}
